@@ -153,7 +153,7 @@ sudo apt install htop
 3. Configuración más sencilla y flexible.
 4. Visualización jerárquica de los procesos.
 
-¡Explora estas opciones y adapta `htop` a tus necesidades!
+
 
 ![htop](img/img9.png)
 
