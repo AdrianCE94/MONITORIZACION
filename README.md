@@ -16,7 +16,7 @@ Nos permite detectar problemas, optimizar recursos, planificar la capacidad futu
 
   1. [Procesos](procesos.md)   
   2. [Memoria, Espacio y Rendimento de disco](ren.md)
-  3. Red
+  3. [Red](red.md)
 
 # Sistemas de monitorización
 
