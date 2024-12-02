@@ -87,8 +87,68 @@ El comando `top` permite monitorear en tiempo real el uso de recursos del sistem
 ![topa](img/img8.png)
 
 
-## htop
+# `htop`: Características y Opciones Interesantes
 
-`htop` es una herramienta de monitoreo de procesos interactiva y colorida para sistemas Linux.
+`htop` es una herramienta interactiva y visual para monitorizar y gestionar procesos en Linux, con una interfaz amigable y opciones avanzadas.
+
+## Características Principales
+- **Interfaz visual amigable**:
+  - Barras gráficas para el uso de CPU, memoria y swap.
+  - Colores codificados para diferentes métricas.
+- **Gestión de procesos**:
+  - Navegación con teclado o mouse.
+  - Posibilidad de enviar señales directamente a los procesos (`SIGKILL`, `SIGTERM`, etc.).
+- **Configuración personalizable**:
+  - Cambia columnas, colores y el comportamiento de la herramienta.
+
+---
+
+## Atajos de Teclado Más Interesantes
+
+### `F2 (Setup)` - Configuración
+- Cambia el aspecto y las métricas mostradas:
+  - Añadir o quitar columnas (PID, usuario, CPU, memoria, etc.).
+  - Ocultar procesos de usuarios no privilegiados.
+  - Personalizar colores.
+
+### `F3 (Search)` - Búsqueda
+- Busca un proceso por nombre o ID.
+- Ideal para localizar procesos en sistemas con muchas tareas.
+
+### `F4 (Filter)` - Filtro
+- Filtra los procesos mostrados por un criterio específico (nombre, tipo, etc.).
+
+### `F5 (Tree)` - Vista en árbol
+- Muestra los procesos en una estructura jerárquica:
+  - Identifica relaciones entre procesos padre e hijo.
+
+### `F6 (Sort)` - Ordenar
+- Cambia el criterio de ordenación:
+  - **CPU%**: Uso de CPU.
+  - **MEM%**: Uso de memoria.
+  - **TIME+**: Tiempo acumulado de CPU.
+  - **PID**: ID del proceso.
+
+### `F9 (Kill)` - Terminar un Proceso
+- Enviar señales para finalizar procesos directamente desde la interfaz.
+
+---
+
+## Opciones de Línea de Comandos
+
+- **`htop -u <usuario>`**: Muestra solo los procesos de un usuario específico.
+- **`htop --tree`**: Inicia `htop` directamente en modo árbol.
+- **`htop -p <PID1,PID2>`**: Muestra información solo de los procesos con los PIDs especificados.
+
+---
+
+## Ventajas de `htop` Frente a `top`
+1. Interfaz visual con barras gráficas y colores.
+2. Navegación y selección de procesos con teclado o mouse.
+3. Configuración más sencilla y flexible.
+4. Visualización jerárquica de los procesos.
+
+¡Explora estas opciones y adapta `htop` a tus necesidades!
 
 ![htop](img/img9.png)
+
