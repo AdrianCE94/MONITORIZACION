@@ -40,3 +40,14 @@ para crear paneles personalizados y visualizaciones interactivas.
 > [!NOTE]
 > Para ver como instalar Prometheus (herramienta de monitorización), node export (libreria de métricas) y Grafana (plataforma de visualización) en un una máquina Linux, puedes ver mi repositorio --> [pincha aqui](https://github.com/AdrianCE94/instalacion-prometheus-grafana)
 
+# Referencias
+
+- [chatGPT](https://www.chatgpt.com)
+- [Manuel Domínguez](https://github.com/mftienda)
+
+# Autor
+[Adrian Cabezuelo Exposito](https://github.com/AdrianCE94)
+
+>Se aprecia cualquier tipo de feedback o sugerencia para mejorar el contenido. Gracias por tu tiempo.
+
+![portada](img/img1.png)
