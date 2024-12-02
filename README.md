@@ -1,9 +1,12 @@
 # MONITORIZACIÓN
 Repositorio herramientas para monitorizar
 
+> [!NOTE]
+> Para instalar Prometheus (herramienta de monitorización), node export (libreria de métricas) y Grafana (plataforma de visualización) en un una máquina Linux, puedes ver mi repositorio --> [pincha aqui](https://github.com/AdrianCE94/instalacion-prometheus-grafana)
+
 # ¿Qué es monitorizar?
 
-Proceo de supervisar y recopilar datos sobre
+Proceso de supervisar y recopilar datos sobre
 
 - Hardware: CPU, Memoria, E/S, Red,uso de disco...
 - Software: Aplicaciones web, Bases de datos...
@@ -37,8 +40,7 @@ Grafana es una plataforma de visualización que se integra con diversas fuentes
 de datos, incluidas muchas herramientas de monitorización. Puede utilizarse
 para crear paneles personalizados y visualizaciones interactivas. 
 
-> [!NOTE]
-> Para ver como instalar Prometheus (herramienta de monitorización), node export (libreria de métricas) y Grafana (plataforma de visualización) en un una máquina Linux, puedes ver mi repositorio --> [pincha aqui](https://github.com/AdrianCE94/instalacion-prometheus-grafana)
+
 
 # Referencias
 
