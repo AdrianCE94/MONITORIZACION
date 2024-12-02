@@ -15,7 +15,7 @@ Nos permite detectar problemas, optimizar recursos, planificar la capacidad futu
 # Como administrador de Sistemas, ¿Qué necesito monitorizar?
 
   1. [Procesos](procesos.md)   
-  2. Memoria, Espacio y Rendimento de disco
+  2. [Memoria, Espacio y Rendimento de disco](rend.md)
   3. Red
 
 # Sistemas de monitorización

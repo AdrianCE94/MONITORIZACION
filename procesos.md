@@ -89,6 +89,11 @@ El comando `top` permite monitorear en tiempo real el uso de recursos del sistem
 
 # `htop`: Características y Opciones Interesantes
 
+```bash
+# Instalar htop
+sudo apt install htop
+```
+
 `htop` es una herramienta interactiva y visual para monitorizar y gestionar procesos en Linux, con una interfaz amigable y opciones avanzadas.
 
 ## Características Principales
@@ -152,3 +157,28 @@ El comando `top` permite monitorear en tiempo real el uso de recursos del sistem
 
 ![htop](img/img9.png)
 
+
+# ATOP
+
+`atop` es una herramienta de monitorización avanzada para sistemas Linux, que proporciona información detallada sobre el uso de recursos y procesos.
+
+![atop](img/img10.png)
+
+---
+
+Modificar para que lo haga cada 60 segundos
+```bash
+sudo nano /etc/default/atop
+```
+Cambiar la linea `INTERVAL=60` y guardar
+
+![atop2](img/img11.png)
+
+Logs de atop
+```bash
+sudo cd /var/log/atop
+# listar
+ls
+# para ver el log
+atop -r nombre_log
+```
